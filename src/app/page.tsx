@@ -1,3 +1,9 @@
-export default function page() {
-    return <div>page</div>;
+import { Navbar } from '@/sections';
+
+export default function Home() {
+    return (
+        <>
+            <Navbar />
+        </>
+    );
 }
