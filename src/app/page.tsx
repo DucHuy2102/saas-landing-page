@@ -1,4 +1,4 @@
-import { Hero, LogoTicker, Navbar } from '@/sections';
+import { Hero, Introduction, LogoTicker, Navbar } from '@/sections';
 
 export default function Home() {
     return (
@@ -6,6 +6,7 @@ export default function Home() {
             <Navbar />
             <Hero />
             <LogoTicker />
+            <Introduction />
         </>
     );
 }
