@@ -43,7 +43,7 @@ export default function Hero() {
                     <input
                         type='email'
                         placeholder='Enter your email'
-                        className='bg-transparent px-5 outline-none text-lg text-zinc-100'
+                        className='bg-transparent px-5 outline-none text-lg text-zinc-100 w-full'
                     />
                     <C_Button
                         type='submit'
