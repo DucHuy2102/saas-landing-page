@@ -56,7 +56,7 @@ export default function Features() {
                         className='md:col-span-2 lg:col-span-1'
                     >
                         <div className='aspect-video flex items-center justify-center'>
-                            <p className='text-4xl font-extrabold text-white/20 text-center'>
+                            <div className='text-4xl font-extrabold text-white/20 text-center'>
                                 <p className=''>
                                     We're achived {''}
                                     <span className='bg-gradient-to-r from-purple-400 to-pink-400 text-transparent bg-clip-text'>
@@ -64,7 +64,7 @@ export default function Features() {
                                     </span>{' '}
                                     this year
                                 </p>
-                            </p>
+                            </div>
                         </div>
                     </C_FeatureCard>
                     <C_FeatureCard
